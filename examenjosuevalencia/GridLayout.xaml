@@ -1,41 +1,20 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="examenjosuevalencia.GridLayout"
-             BackgroundColor="White"
-             Title="Datos Personales">
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="examenjosuevalencia.GridLayout"
+            BackgroundColor="White"
+            Title="Datos Personales">
     <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
-        <Label Text="Primer Nombre"
-               Grid.Row="0" Grid.Column="0"
-               FontSize="16"
-               HorizontalOptions="End"
-               VerticalOptions="Center" />
-        <Entry x:Name="FirstNameEntry"
-               Grid.Row="0" Grid.Column="1"
-               Placeholder="Primer Nombre"
-               FontSize="16"
-               TextColor="Black"
-               BackgroundColor="#EDEDED"
-               HorizontalOptions="FillAndExpand" />
-        <Label Text="Segundo Nombre"
-               Grid.Row="1" Grid.Column="0"
-               FontSize="16"
-               HorizontalOptions="End"
-               VerticalOptions="Center" />
-        <Entry x:Name="SecondNameEntry"
-               Grid.Row="1" Grid.Column="1"
-               Placeholder="Segundo Nombre"
-               FontSize="16"
-               TextColor="Black"
-               BackgroundColor="#EDEDED"
-               HorizontalOptions="FillAndExpand" />
-        <Button Text="Guardar Datos"
-                Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
-                FontSize="18"
-                BackgroundColor="Purple"
-                TextColor="White"
-                CornerRadius="10"
-                Clicked="SaveButton_Clicked"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="Center" />
+        <Label Text="josue "
+              Grid.Row="0" Grid.Column="0"
+              Style="{StaticResource NombreStyle}" />
+        <Label Text="edwin"
+              Grid.Row="0" Grid.Column="1"
+              Style="{StaticResource NombreStyle}" />
+        <Label Text="valencia"
+              Grid.Row="1" Grid.Column="0"
+              Style="{StaticResource ApellidoStyle}" />
+        <Label Text="arguello"
+              Grid.Row="1" Grid.Column="1"
+              Style="{StaticResource ApellidoStyle}" />
     </Grid>
 </ContentPage>

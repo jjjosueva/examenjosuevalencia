@@ -4,8 +4,8 @@
        x:Class="examenjosuevalencia.AppShell">
     <TabBar>
         <ShellContent Title="Recarga Telefónica"
-                      ContentTemplate="{DataTemplate local:GridLayout}" />
-        <ShellContent Title="Datos Personales"
                       ContentTemplate="{DataTemplate local:StackLayout}" />
+        <ShellContent Title="Datos Personales"
+                      ContentTemplate="{DataTemplate local:GridLayout}" />
     </TabBar>
 </Shell>
